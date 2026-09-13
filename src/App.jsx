@@ -1,9 +1,7 @@
-
+import UserForm from "./components/UserForm";
 
 const App = () => {
-  return (
-    <div>App</div>
-  )
-}
+  return <UserForm />;
+};
 
-export default App
+export default App;
